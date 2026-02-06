@@ -6,7 +6,7 @@ In this repository, you will find a Python implementation of our FraMe. FraMe is
 ## Setting up the environment
 You can set up the environment by following commands.
 ```
-conda create -n kitpatch python=3.8.5
+conda create -n FraMe python=3.8.5
 conda install pytorch==2.2.1 torchvision==0.17.1 torchaudio==2.2.1 pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install transformers==4.46.3
 pip install openai==1.84.0
