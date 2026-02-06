@@ -1,4 +1,4 @@
-# Fine-Grained Reasoning Enhanced Vulnerability Patch Generation with Multi-View Fix Knowledge
+# FraMe: Fine-Grained Reasoning Enhanced Vulnerability Patch Generation with Multi-View Fix Knowledge
 
 ## Overview
 In this repository, you will find a Python implementation of our FraMe. FraMe is a novel automated approach that leverages fine-grained reasoning with multi-view fix knowledge to enhance LLM-based vulnerability patch generation. It consists of two modules: stepwise fix-reasoning path collection and multi-view knowledge augmented patch generation.
