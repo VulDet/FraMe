@@ -61,7 +61,7 @@ pip install tree-sitter-c
 ```
 
 ## How to use
-Example usage to run repair_kitpatch:
+Example usage to run repair_frame:
 
 n_example: Number of generated candidate patches.
 
@@ -69,5 +69,5 @@ sample: The maximum number of FiRP generation attempts.
 
 api_key: Place your deepseek access key.
 ```
-python repair_kitpatch.py --dataset bigvul --n_example 10 --sample 25 --model_dir ./saved_models
+python repair_frame.py --dataset bigvul --n_example 10 --sample 25 --model_dir ./saved_models
 ```
