@@ -18,30 +18,29 @@ pip install tree-sitter-c
 ## Package Structure
 ```
 ├── Code
-    ├── KitPatch
-        ├── code_embedding
-            ├── utils
-                ├── __init__.py
-                ├── early_stopping.py
-            ├── model.py
-            ├── run.py
-        ├── graph_embedding
-            ├── gat.py
-            ├── loss.py
-            ├── train.py
-            ├── utils.py
-        ├── patch generation
-            ├── data_preprocess.py
-            ├── model.py
-            ├── repair_direct_reasoning.py
-            ├── repair_kitpatch.py
-        ├── VulKG_construction
-            ├── import
-                ├── bigvul
-                    ├── ...
-                ├── reposvul
-                    ├── ...
-            ├── VulKG_Deployment.cypher
+    ├── code_embedding
+        ├── utils
+            ├── __init__.py
+            ├── early_stopping.py
+        ├── model.py
+        ├── run.py
+    ├── graph_embedding
+        ├── gat.py
+        ├── loss.py
+        ├── train.py
+        ├── utils.py
+    ├── patch generation
+        ├── data_preprocess.py
+        ├── model.py
+        ├── repair_direct_reasoning.py
+        ├── repair_frame.py
+    ├── VulKG_construction
+        ├── import
+            ├── bigvul
+                ├── ...
+            ├── reposvul
+                ├── ...
+        ├── VulKG_Deployment.cypher
 ├── Datasets
     ├── graph_data
         ├── bigvul_graph_data.pkl 
